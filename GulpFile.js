@@ -1,4 +1,4 @@
-const _PROJECTNAME = 'base';
+const _PROJECTNAME = 'ativa';
 
 var gulp = require('gulp'),
 	watch = require('gulp-watch'),
