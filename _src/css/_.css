@@ -3,3 +3,42 @@
  * Copyright 2013-2016 Elbit Developers
  * Licensed under MIT (https://github.com/elbitdigital/base/blob/master/LICENSE)
 */
+
+body {
+	background-color: #eeeeee;
+}
+
+h1 {
+	font-size: 1.3125em;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.container {
+	width: 100%;
+	padding: 0 1em;
+}
+
+@media (min-width: 48em) {
+
+	body {
+		padding: 1em 0 0;
+	}
+
+	h1 {
+		font-size: 2.25em;
+	}
+
+}
+
+@media (min-width: 60em) {
+
+	h1 {
+		font-size: 2.25em;
+	}
+
+	.container {
+		max-width: 60em;
+	}
+
+}

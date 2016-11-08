@@ -1,0 +1,69 @@
+
+/* Header */
+
+.Header {
+	position: relative;
+	margin: 1em auto;
+}
+
+/* Header inner */
+
+.Header-inner {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+/* Header brand */
+
+.Header-brand {
+	padding: 0 1.5em 0 .5em;
+}
+
+@media (min-width: 48em) {
+
+	/* Header brand */
+
+	.Header-brand {
+		padding: 0 3em;
+	}
+
+}
+
+@media (min-width: 60em) {
+
+	/* Header */
+
+	.Header {
+		margin: 3em auto;
+	}
+
+	/* Header brand */
+
+	.Header-brand {
+		padding: 0 2.25em;
+	}
+
+}
+
+@media (min-width: 72em) {
+
+	/* Header brand */
+
+	.Header-brand {
+		padding: 0 3em;
+	}
+
+}
+
+@media (min-width: 96em) {
+
+	/* Header brand */
+
+	.Header-brand {
+		padding: 0 3.75em;
+	}
+
+}
